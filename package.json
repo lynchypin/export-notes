@@ -1,0 +1,14 @@
+{
+  "name": "export-notes",
+  "version": "1.0.0",
+  "description": "Interactive CLI that exports PagerDuty incident notes to a multi-sheet Excel workbook",
+  "type": "module",
+  "scripts": {
+    "start": "node gather-notes.mjs"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.5.0",
+    "xlsx": "^0.18.5"
+  },
+  "license": "MIT"
+}
